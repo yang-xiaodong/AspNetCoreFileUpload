@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 namespace AspNetMVC.ViewModels
 {
     public class UserViewModel
-    {
+    {   
         [Required]
         [Display(Name = "姓名")]
         public string Name { get; set; }
