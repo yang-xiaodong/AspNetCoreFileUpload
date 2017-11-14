@@ -12,7 +12,7 @@ namespace AspNetMVC.ViewModels
         [Required]
         [Display(Name = "姓名")]
         public string Name { get; set; }
-  
+     
         [Required]
         [Display(Name = "身份证")]
         [RegularExpression(@"^(\d{15}$|^\d{18}$|^\d{17}(\d|X|x))$", ErrorMessage = "身份证号不合法")]
