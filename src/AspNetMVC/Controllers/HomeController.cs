@@ -21,7 +21,7 @@ namespace AspNetMVC.Controllers
                 }).ToList();
             return View(model);
         }
-   
+      
         public IActionResult New() {
             return View();
         }
