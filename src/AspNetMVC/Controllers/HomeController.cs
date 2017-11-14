@@ -21,11 +21,11 @@ namespace AspNetMVC.Controllers
                 }).ToList();
             return View(model);
         }
-
+   
         public IActionResult New() {
             return View();
         }
-
+  
         [HttpPost]
         public IActionResult New([FromServices]IHostingEnvironment env, [FromServices]AppDbContext dbContext, UserViewModel user) {
 
