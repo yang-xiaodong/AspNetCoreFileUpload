@@ -25,7 +25,7 @@ namespace AspNetMVC.Controllers
         public IActionResult New() {
             return View();
         }
-  
+    
         [HttpPost]
         public IActionResult New([FromServices]IHostingEnvironment env, [FromServices]AppDbContext dbContext, UserViewModel user) {
 
