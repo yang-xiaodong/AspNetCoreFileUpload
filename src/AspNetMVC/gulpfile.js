@@ -17,7 +17,7 @@ var paths = {
     concatJsDest: webroot + "js/site.min.js",
     concatCssDest: webroot + "css/site.min.css"
 };
-
+ 
 gulp.task("clean:js", function (cb) {
     rimraf(paths.concatJsDest, cb);
 });
